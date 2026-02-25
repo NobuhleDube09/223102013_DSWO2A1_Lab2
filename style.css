@@ -1,0 +1,49 @@
+body{
+    
+    font-family: "Comic Sans MS";
+    border: 2px solid black;
+}
+.id{
+    background-color: yellow;
+    border: 2px solid black;
+}
+
+span.class{
+    position:fixed;
+    top:70px;
+    font-style: italic;
+}
+div +.class{
+    position:relative;
+
+}
+div.class span{
+    float:right;
+    
+}
+div div:nth-child(2):not(div.id){
+    height:50px;
+    border:2px solid black;
+    display:flex;
+    flex-direction: row-reverse;
+}
+div.class  div.id{
+    border:2px solid black;
+    width: fit-content;
+}
+#H{
+    width: 33.33vw;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: right;
+    border: 2px solid black;
+    
+}
+div #class{
+    position: relative;
+    top: -48px;
+    left: 24px;
+    border: 2px solid black;
+    width: 88%;
+}
